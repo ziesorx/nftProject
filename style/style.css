@@ -29,7 +29,6 @@ body {
 
 .logo {
   height: 3.2rem;
-  opacity: 0;
 }
 
 .logo-text {
@@ -202,7 +201,6 @@ body {
   right: 0;
   bottom: 15%;
   object-fit: cover;
-  opacity: 0;
 }
 
 /* Feature */
