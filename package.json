@@ -2,6 +2,7 @@
   "name": "metamask-simple-dapp",
   "version": "1.0.0",
   "description": "Building a simple dapp used in MetaMask e2e tests.",
+  "default": "index.html",
   "scripts": {
     "deploy": "./deploy.sh",
     "lint": "eslint . --ext js,json",
