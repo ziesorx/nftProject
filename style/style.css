@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  background-color: #0e1539;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 3.2rem;
+  opacity: 0;
+}
+
+.logo-text {
+  display: flex;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #868e96;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  /* text-fill: transparent; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #495057, #ced4da);
+}
+
+/* NAV */
+.nav {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-icon {
+  height: 36px;
+  width: 36px;
+  fill: #868e96;
+  /* fill: url(#MyGradient); */
+}
+
+.nav-link:link,
+.nav-link:visited,
+.nav-icon {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-icon:hover {
+  fill: #fff;
+}
+
+.nav-link.nav-btn {
+  padding: 10px 28px;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: #fcc419;
+  color: #444;
+}
+
+/* HERO SECTION */
+.section-hero {
+  position: relative;
+  padding: 4.8rem 0 9.6rem 0;
+  height: 100vh;
+}
+
+.hero-little {
+  width: 70px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #0e1539;
+  background-color: #ced4da;
+  background: linear-gradient(to right, #f8e5ac, #eccc6c);
+  border-radius: 5px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  color: #ced4da;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #fcc419;
+  color: #172466;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #b68c10;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #111942;
+  color: #fff;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+
+  color: #111942;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.hero-img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  object-fit: cover;
+  opacity: 0;
+}
+
+/* Feature */
+.section-feature {
+  background-color: #fff;
+}
