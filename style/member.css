@@ -1,0 +1,140 @@
+/* Become member Page */
+.mint {
+  text-align: center;
+}
+
+.figure.grid.grid--2-cols {
+  grid-template-columns: 1fr, 1fr;
+}
+
+.figure {
+  padding: 80px 100px;
+  align-items: center;
+  justify-items: center;
+}
+
+.figure-text {
+  padding: 32px;
+}
+
+.figure-container {
+  background-color: #273a98;
+  border-radius: 15px;
+}
+
+.figure-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  flex-grow: 1;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  margin-bottom: 70px;
+}
+
+.figure-img-container {
+  border-radius: 10px solid #fff;
+}
+
+.figure-img {
+  opacity: 0;
+  width: 500px;
+  height: auto;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.mint-heading-description {
+  font-size: 16px;
+}
+
+.mint.heading-primary {
+  margin-bottom: 10px;
+}
+
+.prop-list {
+  width: 330px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.prop {
+  border-spacing: 0px;
+  border-collapse: collapse;
+
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.prop-amount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5px;
+}
+
+.prop-1 {
+  border-bottom: 1px solid #ccc;
+}
+
+.prop-2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.prop-text {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.figure-text.heading-secondary {
+  padding: 20px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.prop-heading-description {
+  font-size: 14px;
+  padding: 20px 10px;
+  margin-bottom: 5px;
+}
+
+.btn--mint {
+  width: 330px;
+}
+
+.btn--max {
+  padding: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.amount {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#dis-amount {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.prop-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5px;
+}
+
+#total-amount {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}

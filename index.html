@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style/style.css" />
 
     <title>SNOOP</title>
-    <script defefr src="scripts/controller.js"></script>
+    <script type="module" defer src="scripts/controller.js"></script>
   </head>
 
   <body>
@@ -101,7 +101,9 @@
             ></a>
           </li>
           <li>
-            <a href="#" class="nav-link nav-btn">Activate Membership</a>
+            <a href="pages/activate.html" class="nav-link nav-btn"
+              >Activate Membership</a
+            >
           </li>
         </ul>
       </nav>
@@ -124,7 +126,9 @@
               <a href="#" class="btn btn--full margin-right-sm"
                 >Install Chrome extension</a
               >
-              <a href="#" class="btn btn--outline">Become member</a>
+              <a href="pages/member.html" class="btn btn--outline"
+                >Become member</a
+              >
               <!-- <img src="img/pittNaked.jpg" alt="Pitt naked" class="hero-img" /> -->
             </div>
             <img
@@ -136,7 +140,7 @@
         </div>
       </section>
 
-      <section class="section-feature">
+      <section class="section section-feature">
         <div class="container">
           <h2 class="heading-secondary">Features</h2>
         </div>
@@ -191,7 +195,7 @@
         </div>
       </section>
 
-      <section class="section-faq">
+      <section class="section section-faq">
         <div class="container">
           <h2 class="heading-secondary">FAQ</h2>
         </div>
@@ -306,20 +310,6 @@
 
           <div class="item open">
             <div class="accordion-header-container">
-              <!-- <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="arrow-icon"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg> -->
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="arrow-icon"
@@ -331,7 +321,7 @@
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M19 9l-7 7-7-7"
+                  d="M9 5l7 7-7 7"
                 />
               </svg>
               <p class="title-faq">Is Snoop safe to use?</p>
@@ -374,14 +364,16 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section section-cta">
         <div class="container center-text">
           <div class="cta">
             <div class="cta-text-box center-text">
               <h2 class="heading-secondary member-heading">
                 Let's get your first alert now!
               </h2>
-              <a href="#" class="btn btn--full margin-right-sm btn-footer"
+              <a
+                href="pages/member.html"
+                class="btn btn--full margin-right-sm btn-footer"
                 >Become member now</a
               >
             </div>

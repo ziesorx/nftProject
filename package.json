@@ -2,7 +2,6 @@
   "name": "metamask-simple-dapp",
   "version": "1.0.0",
   "description": "Building a simple dapp used in MetaMask e2e tests.",
-  "default": "index.html",
   "scripts": {
     "deploy": "./deploy.sh",
     "lint": "eslint . --ext js,json",
@@ -14,10 +13,6 @@
     "type": "git",
     "url": ""
   },
-  "files": [
-    "/contract.js",
-    "/meta.html"
-  ],
   "author": "MetaMask",
   "license": "MIT",
   "bugs": {
@@ -25,15 +20,15 @@
   },
   "homepage": "",
   "dependencies": {
-    "@metamask/onboarding": "^1.0.1",
-    "opensea-js": "^2.0.0",
-    "web3": "^1.7.0"
+    "@metamask/onboarding": "*",
+    "opensea-js": "*",
+    "web3": "*"
   },
   "devDependencies": {
-    "@metamask/eslint-config": "^2.0.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-json": "^2.0.1",
-    "static-server": "^2.2.1"
+    "@metamask/eslint-config": "*",
+    "eslint": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-json": "*",
+    "static-server": "*"
   }
 }
