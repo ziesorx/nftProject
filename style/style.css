@@ -181,7 +181,7 @@ body {
   background: linear-gradient(to right, #f8e5ac, #eccc6c);
   border-radius: 0.5rem;
   padding: 0.8rem 0;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .hero {
