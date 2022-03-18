@@ -11,9 +11,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/queries.css" />
 
     <title>SNOOP</title>
     <script type="module" defer src="scripts/controller.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
 
   <body>
@@ -107,6 +117,10 @@
           </li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -131,12 +145,8 @@
               >
               <!-- <img src="img/pittNaked.jpg" alt="Pitt naked" class="hero-img" /> -->
             </div>
-            <img
-              src="img/protoppic.jpg"
-              alt="ZieSorX Opensea"
-              class="hero-img"
-            />
           </div>
+          <img src="img/protoppic.jpg" alt="ZieSorX Opensea" class="hero-img" />
         </div>
       </section>
 

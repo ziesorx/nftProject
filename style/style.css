@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -57,12 +58,12 @@ body {
   display: flex;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
   color: #868e96;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
 
   /* text-fill: transparent; */
   background-clip: text;
@@ -90,8 +91,8 @@ body {
 }
 
 .nav-icon {
-  height: 36px;
-  width: 36px;
+  height: 3.6rem;
+  width: 3.6rem;
   fill: #868e96;
   /* fill: url(#MyGradient); */
 }
@@ -114,15 +115,33 @@ body {
 }
 
 .nav-link.nav-btn {
-  padding: 10px 28px;
-  font-size: 14px;
-  border-radius: 10px;
+  padding: 1rem 2.8rem;
+  font-size: 1.4rem;
+  border-radius: 1rem;
   background-color: #fcc419;
   color: #444;
 }
 
 .nav-btn:hover {
   background-color: #cfa012;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #fff;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
 }
 
 /* STICKY NAV */
@@ -147,22 +166,22 @@ body {
 .section-hero {
   position: relative;
   padding: 4.8rem 0 9.6rem 0;
-  height: 100vh;
+  height: 80rem;
 }
 
 .hero-little {
-  width: 70px;
-  font-size: 10px;
+  width: 7rem;
+  font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   letter-spacing: 2px;
   color: #0e1539;
   background-color: #ced4da;
   background: linear-gradient(to right, #f8e5ac, #eccc6c);
-  border-radius: 5px;
-  padding: 8px 0;
-  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.8rem 0;
+  /* text-align: center; */
 }
 
 .hero {
@@ -173,7 +192,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 6rem;
 }
 
 .hero-description {
@@ -198,7 +217,7 @@ body {
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  border-radius: 9px;
+  border-radius: 0.9rem;
 
   border: none;
   cursor: pointer;
@@ -239,15 +258,13 @@ body {
 }
 
 .hero-img {
-  width: 800px;
-  height: auto;
-  position: absolute;
+  width: 150%;
   right: -10%;
   bottom: 25%;
   /* object-fit: cover; */
   /* object-position: 0 10%; */
-  border-radius: 15px;
-  box-shadow: 0 20px 30px 0 rgba(200, 200, 200, 0.07);
+  border-radius: 1.5rem;
+  box-shadow: 0 2rem 3rem 0 rgba(200, 200, 200, 0.07);
 }
 
 /* Feature */
@@ -317,14 +334,14 @@ body {
 
 .fea-img {
   width: 100%;
-  box-shadow: 0 20px 30px 0 rgba(200, 200, 200, 0.07);
+  box-shadow: 0 2rem 3rem 0 rgba(200, 200, 200, 0.07);
 }
 
 /* FAQ */
 .section-faq {
   padding: 9.6rem 0;
 
-  width: 700px;
+  width: 70rem;
   margin: 0 auto;
 
   color: #ced4da;
@@ -340,12 +357,12 @@ body {
 }
 
 .arrow-icon {
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .item-container {
-  width: 1200px;
+  width: 120rem;
   display: flex;
   flex-direction: column;
   /* gap: 24px; */
@@ -354,15 +371,15 @@ body {
 }
 
 .item {
-  font-size: 16px;
-  padding: 12px;
+  font-size: 1.6rem;
+  padding: 1.2rem;
   border-top: 0.25px solid #828899;
   border-bottom: 0.25px solid #828899;
   transition: all 0.3s ease-in-out;
 }
 
 .item.open {
-  border-left: 6px solid #94aefa;
+  border-left: 0.6rem solid #94aefa;
 }
 
 .item .hidden-box {
@@ -385,9 +402,9 @@ body {
 
 .title-faq {
   color: #868e96;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
-  padding: 16px 32px;
+  padding: 1.6rem 3.2rem;
 }
 
 .item:hover {
@@ -409,8 +426,8 @@ body {
 }
 
 .hidden-box {
-  padding: 12px;
-  margin-left: 40px;
+  padding: 1.2rem;
+  margin-left: 4rem;
   line-height: 1.6;
 }
 
@@ -424,7 +441,7 @@ body {
   flex-direction: column;
   /* grid-template-columns: 2fr 1fr; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
-  border-radius: 11px;
+  border-radius: 1.1rem;
 
   background-image: linear-gradient(to right bottom, #f5d880, #fcc419);
   overflow: hidden;
@@ -435,26 +452,26 @@ body {
 
 .cta-text-box {
   /* display: flex; */
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
 .btn.btn-footer:link,
 .btn.btn-footer:visited {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   color: #fff;
   background-color: #4b3906;
 }
 
 .btn.btn-footer:hover,
 .btn.btn-footer:active {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   color: #4b3906;
   background-color: #fff;
 }
 
 .member-heading {
   color: #4b3906;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 /* FOOTER */
@@ -465,5 +482,5 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 1.4rem;
 }

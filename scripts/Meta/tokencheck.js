@@ -137,8 +137,8 @@ class TokenCheck {
     const checkNFT = async () => {
       const tokenID = [];
       const options = { method: 'GET' };
-      // const accounts = await ethereum.request({ method: 'eth_accounts' });
-      const accounts = '0xae310299a52b9b3cd40597a3eb7f387d97b7c31f';
+      const accounts = await ethereum.request({ method: 'eth_accounts' });
+      // const accounts = '0xae310299a52b9b3cd40597a3eb7f387d97b7c31f';
       let index;
       console.log(accounts);
 
