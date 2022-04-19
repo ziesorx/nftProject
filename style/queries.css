@@ -84,6 +84,10 @@
   .item-container {
     width: 90rem;
   }
+
+  .mint-heading-description {
+    margin-bottom: 5rem;
+  }
 }
 
 @media (max-width: 35em) {
@@ -109,6 +113,11 @@
     align-items: center;
     justify-items: center;
     text-align: center;
+  }
+
+  .figure {
+    padding: 0;
+    padding-bottom: 10rem;
   }
 
   .fea-img {

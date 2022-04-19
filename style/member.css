@@ -2,6 +2,11 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
 /* Become member Page */
 .mint {
   text-align: center;
@@ -15,6 +20,7 @@ html {
   padding: 8rem 10rem;
   align-items: center;
   justify-items: center;
+  gap: 0;
 }
 
 .figure-text {
@@ -40,16 +46,25 @@ html {
   margin-bottom: 7rem;
 }
 
-.figure-img-container {
-  border-radius: 10px solid #fff;
-}
-
-.figure-img {
-  opacity: 0;
-  width: 50rem;
+.figure-vid-container {
+  position: relative;
+  width: 50.4rem;
   height: auto;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.2s;
+}
+
+.key-vid {
+  object-fit: cover;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  transform: translateZ(10px);
+  box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
 }
 
 .mint-heading-description {
