@@ -1,0 +1,4 @@
+export const tokenHolders = [
+  "0x134f529eb2dc248035a5c3e1308574d8b6df352a",
+  "0x0a99E21897Cc671a57C7e4184a9818B9B59F0B9F",
+];
